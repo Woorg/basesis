@@ -1,0 +1,21 @@
+include ../form/form
+
+mixin main()
+	.main
+		.container
+			.row
+				h1 Обслуживание и ремонт ПРОТИВОПОЖАРНОЙ ЗАЩИТЫ жилого дома
+				ul
+					li 1. Аварийка 24ч/7дн
+					li 2. Работаем в ЦАО, ВАО, САО, ЗАО, ЮАО
+					li 3. Гарантия бесперебойной работы 365дн./год
+					li 4. Решим вопрос с МЧС
+
+				p Мы работаем с ТСЖ, УК, ЖСК и другими компаниями управляющими многоквартирными жилыми домами 24/7/365.
+			.row
+				.col-xs-12.col-sm-12.col-md-6.col-lg-7.main__col.video
+					iframe.video__object(src="//www.youtube.com/embed/HBUe6iCRC6k?rel=0&showinfo=0")
+
+				.col-xs-12.col-sm-12.col-md-6.col-lg-5.main__col
+					h2 4 ПРИЧИНЫ ложного срабатывания пожарной сигнализации
+					+form()

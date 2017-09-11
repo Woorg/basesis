@@ -1,0 +1,31 @@
+.header
+	display block
+	font-size 14px
+	&__logo
+		+r(992px)
+			margin auto
+	&__city,
+	&__email
+		display block
+		padding-top 12px
+		+r(992px)
+			text-align center
+	&__phone
+		display block
+		padding-top 12px
+		text-align right
+		+r(992px)
+			text-align center
+.logo
+	display block
+	width 152px
+	height 50px
+	background url('../images/general/logo.jpg') 0 0 / cover no-repeat
+	hide-text()
+
+.email,
+.phone
+	color #000
+	text-decoration none
+.phone
+	font-family $mM

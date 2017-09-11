@@ -1,0 +1,12 @@
+mixin form()
+	.form
+		form(action='/', method='post')
+			.form-group.field-emailphoneform-email.required
+				input#emailphoneform-email.form-control(type='text', name='', placeholder='Email')
+				.help-block
+			.form-group.field-emailphoneform-phone.required
+				input#emailphoneform-phone.form-control(type='text', name='', placeholder='Телефон')
+				.help-block
+			button.btn.btn-license.btn-block.form__button(type='submit') СКАЧАТЬ
+
+
